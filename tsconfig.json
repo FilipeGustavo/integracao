@@ -2,6 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@integracao/detalhe-pedido-lib": [
+        "dist/integracao/detalhe-pedido-lib"
+      ],
+      "@integracao/lista-pedidos-lib": [
+        "dist/integracao/lista-pedidos-lib"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

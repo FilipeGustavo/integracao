@@ -1,0 +1,19 @@
+<mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Filtro Pedidos
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-form-field class="form-field-nome-cliente">
+                        <mat-label>Nome Cliente</mat-label>
+                        <input matInput placeholder="Digite o nome do cliente">
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>

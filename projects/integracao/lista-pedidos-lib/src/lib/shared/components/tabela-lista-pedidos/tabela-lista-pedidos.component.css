@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+    background: #e5dfdf;
+  }
+
+  th {
+    color: white;
+    font-size: 18px;
+  }
+
+  .mat-header-row {
+    background: #1d23d7;
+  }
