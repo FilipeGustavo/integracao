@@ -4,10 +4,14 @@ table {
   }
 
   th {
-    color: white;
+    color: black;
     font-size: 18px;
   }
 
   .mat-header-row {
-    background: #1d23d7;
+    background: #0b78ff69;
+  }
+
+  #divPrincipalListaPedidos{
+    max-width: 1900px;
   }

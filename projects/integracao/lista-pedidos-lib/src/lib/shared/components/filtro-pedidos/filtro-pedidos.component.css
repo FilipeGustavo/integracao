@@ -5,3 +5,7 @@
 .form-field-nome-cliente {
     width: 100%;
 }
+
+mat-expansion-panel{
+  background: #e5dfdf;
+}
